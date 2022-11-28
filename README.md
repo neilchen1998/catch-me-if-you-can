@@ -27,21 +27,149 @@ and **RRT** algorithm to intercept the target.
   <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/A/map-0-A.gif" width="300" height="250">
 </picture>
 
-- Intercepting the target using A-start in Map 0
+- Intercepting the target using A-star in Map 0
 
-| Map | Steps | Avg. Time |
-| ------------- | ------------- | -------- |
-| Map 0  | 8  | 5.9*10^-3 |
-| Map 1  | 1281  | 10.5 |
-| Map 2  | 16  | 4.4*10^-2 |
-| Map 3  | 257  | 0.86 |
-| Map 4  | 9  | 5.6*10^-3 |
-| Map 5  | NaN  | NaN |
-| Map 6  | 76  | 0.57 |
-| Map 7  | NaN  | NaN |
-| Map 1B  | NaN  | NaN |
-| Map 3B  | NaN  | NaN |
-| Map 3C  | NaN  | NaN |
+<table border="2" summary="">
+<tr>
+    <th>Algorithm</th>
+    <th>Map</th>
+    <th>Steps</th>
+    <th>Avg. Time</th>
+  </tr>
+ <tr>
+  <td rowspan="11">A-star</td>
+  <td>Map 0</td>
+  <td>8</td>
+  <td>5.9*E-3</td>
+ </tr>
+ <tr>
+   <td>Map 1</td>
+   <td>1281</td>
+   <td>10.5</td>
+ </tr>
+ <tr>
+   <td>Map 2</td>
+   <td>16</td>
+   <td>4.4*E-2</td>
+ </tr>
+ <tr>
+   <td>Map 3</td>
+   <td>257</td>
+   <td>0.86</td>
+ </tr>
+ <tr>
+   <td>Map 4</td>
+   <td>9</td>
+   <td>5.6*E-3</td>
+ </tr>
+ <tr>
+   <td>Map 5</td>
+   <td>NaN</td>
+   <td>NaN</td>
+ </tr>
+ <tr>
+   <td>Map 6</td>
+   <td>76</td>
+   <td>0.57</td>
+ </tr>
+ <tr>
+   <td>Map 7</td>
+   <td>NaN</td>
+   <td>NaN</td>
+ </tr>
+ <tr>
+   <td>Map 1B</td>
+   <td>NaN</td>
+   <td>NaN</td>
+ </tr>
+ <tr>
+   <td>Map 3B</td>
+   <td>NaN</td>
+   <td>NaN</td>
+ </tr>
+ <tr>
+   <td>Map 3C</td>
+   <td>NaN</td>
+   <td>NaN</td>
+ </tr>
+</table>
+
+<table border="2" summary="">
+<tr>
+    <th>Algorithm</th>
+    <th>Map</th>
+    <th>Avg. Steps</th>
+    <th>Avg. Time</th>
+    <th>Avg. Iterations</th>
+  </tr>
+  <tr>
+    <td rowspan="11">RRT2</td>
+    <td>Map 0</td>
+    <td>7</td>
+    <td>4.6*E-3</td>
+    <td>34.3</td>
+   </tr>
+   <tr>
+     <td>Map 1</td>
+     <td>1419</td>
+     <td>1.3</td>
+     <td>834.3</td>
+   </tr>
+   <tr>
+     <td>Map 2</td>
+     <td>15.3</td>
+     <td>2.9*E-2</td>
+     <td>427.7</td>
+   </tr>
+   <tr>
+     <td>Map 3</td>
+     <td>403</td>
+     <td>2.8</td>
+     <td>667.7</td>
+   </tr>
+   <tr>
+     <td>Map 4</td>
+     <td>9</td>
+     <td>8.3*E-2</td>
+     <td>142</td>
+   </tr>
+   <tr>
+     <td>Map 5</td>
+     <td>1019.3</td>
+     <td>7.7</td>
+     <td>6412.7</td>
+   </tr>
+   <tr>
+     <td>Map 6</td>
+     <td>16</td>
+     <td>4.4*E-2</td>
+     <td>2994.3</td>
+   </tr>
+   <tr>
+     <td>Map 7</td>
+     <td>NaN</td>
+     <td>NaN</td>
+     <td>NaN</td>
+   </tr>
+   <tr>
+     <td>Map 1B</td>
+     <td>4461.7</td>
+     <td>293.1</td>
+     <td>51874.3</td>
+   </tr>
+   <tr>
+     <td>Map 3B</td>
+     <td>719.3</td>
+     <td>49.6</td>
+     <td>5194.3</td>
+   </tr>
+   <tr>
+     <td>Map 3C</td>
+     <td>1278.6</td>
+     <td>29.1</td>
+     <td>2941</td>
+   </tr>
+</table>
 
 # Reference
 
