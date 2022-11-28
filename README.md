@@ -24,10 +24,10 @@ and **RRT** algorithm to intercept the target.
 # Results
 
 <picture>
-  <img src="https://github.com/neilchen1998/escape-the-maze/blob/main/result-example-gif.gif" width="300" height="250">
+  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/A/map-0-A.gif" width="300" height="250">
 </picture>
 
-- One of the results
+- Intercepting the target using A-start in Map 0
 
 | Map | Steps | Avg. Time |
 | ------------- | ------------- | -------- |
