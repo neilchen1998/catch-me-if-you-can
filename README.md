@@ -29,6 +29,12 @@ and **RRT** algorithm to intercept the target.
 
 - Intercepting the target using A-star in Map 0
 
+<picture>
+  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/RRT2/map-6-RRT-2.gif" width="300" height="250">
+</picture>
+
+- Intercepting the target using RRT2 in Map 6
+
 <table border="2" summary="">
 <tr>
     <th>Algorithm</th>
