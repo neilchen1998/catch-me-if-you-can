@@ -30,15 +30,14 @@ For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (
 
 <picture>
   <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/A/map-0-A.gif" width="300" height="250">
+  <figcaption>Intercepting the target using A-star in Map 0</figcaption>
 </picture>
 
-- Intercepting the target using A-star in Map 0
 
 <picture>
   <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/RRT2/map-6-RRT-2.gif" width="300" height="250">
+  <figcaption>Intercepting the target using RRT2 in Map 6</figcaption>
 </picture>
-
-- Intercepting the target using RRT2 in Map 6
 
 
 <table border="2">
