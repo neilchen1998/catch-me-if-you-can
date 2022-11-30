@@ -10,11 +10,10 @@ and **RRT** algorithm.
 In this project, there are a myriad of maps, ranging from small maps (6x8) to extremely large maps (5000*50000) [1].
 Here are some of the mazes that we use:
 
-<picture>
-  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/maps/map-0.png" width="300" height="250">
-</picture>
-
-- Map 0 (small map)
+<figure>
+  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/maps/map-0.png" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Map 0 (small map)</figcaption>
+</figure>
 
 # Approaches
 
@@ -28,18 +27,17 @@ For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (
 
 # Results
 
-<picture>
-  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/A/map-0-A.gif" width="300" height="250">
-  <!---<figcaption>Intercepting the target using A-star in Map 0</figcaption>--->
-</picture>
+<figure>
+  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/A/map-0-A.gif" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Intercepting the target using A-star in Map 0</figcaption>
+</figure>
 
 <p>&nbsp</p>
 
-<picture>
-  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/RRT2/map-6-RRT-2.gif" width="300" height="250">
-  <!---<figcaption>Intercepting the target using RRT2 in Map 6</figcaption>--->
-</picture>
-
+<figure>
+  <img src="https://github.com/neilchen1998/catch-me-if-you-can/blob/main/results-gif/RRT2/map-6-RRT-2.gif" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Intercepting the target using RRT2 in Map 6</figcaption>
+</figure>
 
 <p>&nbsp</p>
 
