@@ -21,6 +21,11 @@ Here are some of the mazes that we use:
 In this project, we use **A-start** algorithm
 and **RRT** algorithm to intercept the target.
 
+For the **A-start** algorithm, we use Manhattan distance as
+our heuristic function.
+
+For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (the distance between the current point and the new random point). For **RRT1**, the value of $\epsilon$ is 1.4, whereas that of **RRT2** is porportional to the size of the map, i.e., the larger the size of the map, the larger the value of $\epsilon$ is.
+
 # Results
 
 <picture>
