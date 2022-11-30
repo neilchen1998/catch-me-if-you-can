@@ -40,7 +40,9 @@ For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (
 
 - Intercepting the target using RRT2 in Map 6
 
-<table border="2" summary="">
+
+<table border="2">
+<caption>Result of A-Star Algorithm</caption>
 <tr>
     <th>Algorithm</th>
     <th>Map</th>
@@ -105,7 +107,9 @@ For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (
  </tr>
 </table>
 
-<table border="2" summary="">
+
+<table border="2">
+<caption>Result of RRT2 Algorithm</caption>
 <tr>
     <th>Algorithm</th>
     <th>Map</th>
