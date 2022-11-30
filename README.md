@@ -44,7 +44,7 @@ For the **RRT** algorithm, we use two slightly different values for $\epsilon$ (
 <p>&nbsp</p>
 
 <table>
-<caption style="text-align:center">Result of A-Star Algorithm</caption>
+<caption align="center">Result of A-Star Algorithm</caption>
 <tr>
     <th>Algorithm</th>
     <th>Map</th>
